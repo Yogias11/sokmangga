@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/tampil', methods=['GET'])
 def hai():
 	return "INI ADALAH RETURN DARI PARAMETER PANGGIL"
+
+@app.route('/alimu', methods=['POST'])
+def akhir():
+	return "Alhamdulillah hiala ni matil iman"
