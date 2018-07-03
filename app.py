@@ -78,6 +78,10 @@ def sulpa():
 def miabb():
     return "life is a choice"    
 
-    @app.route('/nurgivani/', methods=['POST'])
+@app.route('/nurgivani/', methods=['POST'])
 def nurgivani():
     return "Givani done!"
+
+@app.route('/riki', methods=['VIEW'])
+def riki():
+    return "Hello Quis Web Service :)"
