@@ -97,3 +97,7 @@ def angg():
 	@app.route('/teduh' , methods=['PATCH'])
 def teduh():
     return "Kamu udah makan belum?"
+
+@app.route('/widari', methods=['GET'])
+def wid():
+ return "quis widari"
