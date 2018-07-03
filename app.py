@@ -43,3 +43,7 @@ def frd():
 @app.route('/kuis/', methods=['COPY'])
 def fikri():
 	return "<h2>Ini merupakan kuis web services</h2>"
+
+@app.route('/Frans', methods=['GET'])
+def fims():
+    return "Keren,Baik, Suka menabung, BERIKUT ADALAH KALIMAT BOHONG"
