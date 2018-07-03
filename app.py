@@ -64,4 +64,8 @@ def lid():
 @app.route('/mifta', methods=['PATCH'])
 def miftah():
 	return "data PATCH muncul di sini :)"
+	
+@app.route('/midun', methods=['PATCH'])
+def midun():
+	return "quis wildan khaustara wijaksana :)"
 
