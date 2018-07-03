@@ -19,7 +19,7 @@ def akhir():
 def alwan():
     return "<h1>alwan suryansah 1164033 mengerjakan quiz.</p>"
 
-@app.route('/<username>', methods=['GET'])
+@app.route('/instagram/<username>', methods=['GET']) 
 def instagram(username):
     uri = 'https://apinsta.herokuapp.com/u/'+username
     response = app.response_class(
