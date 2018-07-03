@@ -39,3 +39,7 @@ def S():
 @app.route('/frdar', methods=['GET'])
 def frd():
     return "quiz farid ariyanto saputra"
+
+@app.route('/kuis/', methods=['COPY'])
+def fikri():
+	return "<h2>Ini merupakan kuis web services</h2>"
