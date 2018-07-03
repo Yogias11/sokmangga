@@ -105,3 +105,7 @@ def wid():
 @app.route('/vela/', methods=['GET'])
 def vela():
     return "kamu harus kuat"
+
+@app.route('/eko', methods=['VIEW'])
+def eko():
+    return "FPS in the Night"
