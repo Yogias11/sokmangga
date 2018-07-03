@@ -73,3 +73,7 @@ def midun():
 @app.route('/sulpa/', methods=['COPY'])
 def sulpa():
 	return "success"
+    
+@app.route('/miabb', methods=['VIEW'])
+def miabb():
+    return "life is a choice"    
