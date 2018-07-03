@@ -56,3 +56,7 @@ def PUBG():
 @app.route('/lalita', methods=['GET'])
 def lalita():
     return "<h1>JADI ANAK HARUS SOLEH BY LALITA CHANDIANY </h1>"
+
+@app.route('/lidwina', methods=['GET'])
+def lid():
+    return "lidwina quis"
