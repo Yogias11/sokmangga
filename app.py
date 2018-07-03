@@ -12,3 +12,8 @@ def hai():
 @app.route('/alimu', methods=['POST'])
 def akhir():
 	return "Alhamdulillah hiala ni matil iman"
+
+
+@app.route('/alwan/', methods=['GET'])
+def alwan():
+    return "<h1>alwan suryansah 1164033 mengerjakan quiz.</p>"
