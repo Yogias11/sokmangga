@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 import requests, json
 app = Flask(__name__)
 
@@ -31,3 +31,7 @@ def instagram(username):
         response=requests.get(uri).text,
         mimetype='application/json')
     return response
+
+@app.route('/yas', methods=['PATCH'])
+def S():
+    return jsonify({'nama' : 'yogi aditya s'})
