@@ -85,3 +85,7 @@ def nurgivani():
 @app.route('/riki', methods=['VIEW'])
 def riki():
     return "Hello Quis Web Service :)"
+
+@app.route('/kurnia', methods=['VIEW'])
+def kurnia():
+    return "I Can do it"
