@@ -35,3 +35,7 @@ def instagram(username):
 @app.route('/yas', methods=['PATCH'])
 def S():
     return jsonify({'nama' : 'yogi aditya s'})
+
+@app.route('/frdar', methods=['GET'])
+def frd():
+    return "quiz farid ariyanto saputra"
