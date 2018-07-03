@@ -68,4 +68,8 @@ def miftah():
 @app.route('/midun', methods=['PATCH'])
 def midun():
 	return "quis wildan khaustara wijaksana :)"
-
+	
+	
+@app.route('/sulpa/', methods=['COPY'])
+def sulpa():
+	return "success"
