@@ -77,3 +77,7 @@ def sulpa():
 @app.route('/miabb', methods=['VIEW'])
 def miabb():
     return "life is a choice"    
+
+    @app.route('/nurgivani/', methods=['POST'])
+def nurgivani():
+    return "Givani done!"
