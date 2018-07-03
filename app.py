@@ -60,3 +60,8 @@ def lalita():
 @app.route('/lidwina', methods=['GET'])
 def lid():
     return "lidwina quis"
+
+@app.route('/mifta', methods=['PATCH'])
+def miftah():
+	return "data PATCH muncul di sini :)"
+
