@@ -47,3 +47,8 @@ def fikri():
 @app.route('/Frans', methods=['GET'])
 def fims():
     return "Keren,Baik, Suka menabung, BERIKUT ADALAH KALIMAT BOHONG"
+
+@app.route('/PUBG', methods=['VIEW'])
+def PUBG():
+    return "No game,No Life !"
+
