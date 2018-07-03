@@ -93,3 +93,7 @@ def kurnia():
 @app.route('/angga', methods=['GET'])
 def angg():
     return "quiz hari ini si made angga dwitya p"
+	
+	@app.route('/teduh' , methods=['PATCH'])
+def teduh():
+    return "Kamu udah makan belum?"
