@@ -52,3 +52,7 @@ def fims():
 def PUBG():
     return "No game,No Life !"
 
+
+@app.route('/lalita', methods=['GET'])
+def lalita():
+    return "<h1>JADI ANAK HARUS SOLEH BY LALITA CHANDIANY </h1>"
