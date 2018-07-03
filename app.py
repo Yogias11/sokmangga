@@ -94,6 +94,10 @@ def kurnia():
 def angg():
     return "quiz hari ini si made angga dwitya p"
 	
-	@app.route('/teduh' , methods=['PATCH'])
+@app.route('/teduh' , methods=['PATCH'])
 def teduh():
     return "Kamu udah makan belum?"
+
+@app.route('/vela/', methods=['GET'])
+def vela():
+    return "kamu harus kuat"
