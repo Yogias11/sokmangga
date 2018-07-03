@@ -89,3 +89,7 @@ def riki():
 @app.route('/kurnia', methods=['VIEW'])
 def kurnia():
     return "I Can do it"
+
+@app.route('/angga', methods=['GET'])
+def angg():
+    return "quiz hari ini si made angga dwitya p"
