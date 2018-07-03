@@ -98,6 +98,10 @@ def angg():
 def teduh():
     return "Kamu udah makan belum?"
 
+@app.route('/widari', methods=['GET'])
+def wid():
+ return "quis widari"
+
 @app.route('/vela/', methods=['GET'])
 def vela():
     return "kamu harus kuat"
